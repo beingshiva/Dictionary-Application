@@ -1,0 +1,150 @@
+:root {
+  --header-color: #0a68a3;
+  --bcg-color: #2a2929;
+  --padding: 18px;
+  --text-color: #fff;
+  --border-radius: 7px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bcg-color);
+  width: 100vw;
+}
+
+header {
+  background-color: var(--header-color);
+  padding: var(--padding);
+  color: var(--text-color);
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  min-height: 70vh;
+  padding: var(--padding);
+  max-width: 600px;
+  margin: 15px auto;
+}
+
+main form {
+  display: flex;
+  justify-content: center;
+}
+
+form input[type="text"],
+button[type="submit"],
+.result div a {
+  border: none;
+  font-size: 18px;
+  font-weight: 500px;
+  text-transform: capitalize;
+  border-radius: var(--border-radius);
+  padding: calc(var(--padding) / 2);
+}
+
+#capti{
+  text-transform: capitalize;
+}
+
+form input[type="text"] {
+  flex-grow: 1;
+  background-color: #e9e4e4;
+}
+
+form button[type="submit"] {
+  background-color: var(--header-color);
+  color: var(--text-color);
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: var(--header-color);
+  color: var(--text-color);
+  padding: var(--padding);
+  text-align: center;
+  font-size: 15px;
+  position: fixed;
+  width: 100%;
+}
+.result {
+  background-color: #e9e4e4;
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}
+.result p {
+  margin-top: 10px;
+}
+.result p[class="partOfSpeech"] {
+  font-style: italic;
+  color: #808080;
+  margin-top: 2px;
+}
+.result div {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.result div a {
+  text-decoration: none;
+  background-color: var(--header-color);
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+.result li {
+  padding: calc(var(--padding) / 7);
+  margin-left: 20px;
+}
+
+.okyshiva{
+    color: red;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 415px) {
+  main form {
+    flex-direction: column;
+  }
+  form button[type="submit"] {
+    margin-left: 0px;
+    margin-top: 13px;
+  }
+  header {
+    font-size: 20px;
+  }
+  main {
+    margin-top: 25px;
+    min-height: 82vh;
+  }
+
+  form input[type="text"] {
+    font-size: 30px;
+  }
+  .result {
+    font-size: 18px;
+  }
+  form button[type="submit"] {
+    font-size: 25px;
+  }
+}
