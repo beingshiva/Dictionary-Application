@@ -43,6 +43,6 @@ The Dictionary Project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions or suggestions regarding the Dictionary Project, feel free to contact Shiva at beingshiva78gmail.com. and my linkedin profile : https://www.linkedin.com/in/shiva2478/
+If you have any questions or suggestions regarding the Dictionary Project, feel free to contact Shiva at beingshiva78@gmail.com. and my linkedin profile : https://www.linkedin.com/in/shiva2478/
 
 Happy exploring words with the Dictionary Project!
